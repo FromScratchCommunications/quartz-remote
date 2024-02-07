@@ -1,6 +1,11 @@
 ---
-title: Welcome to Quartz
+title: Hallihallohallölle!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Diese Notitz ist leer!
+Schau mal auf die [Dokumentation](https://quartz.jzhao.xyz) , dann klappt's schon.
+
+Auch:
+
+[[Test for Quartz 1]]
+[[Another test note]]
