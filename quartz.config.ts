@@ -21,17 +21,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          # BG, FS white:
+          light: "#faf8ff",
+          # borders, FS green light
+          lightgray: "#5dfdcb",
+          # heavier borders, graph links, FS  purple rain
+          gray: "#4500bd",
+          # body text, FS deep purple
+          darkgray: "#25215a",
+          # header text & icons, FS purple rain
+          dark: "#4500bd",
+          # links, FS HC p!nk
+          secondary: "#B81B8B",
+          # hover states & visited graph nodes, FS p!nk
+          tertiary: "#e237b1",
+          # highlight: "rgba(143, 159, 169, 0.15)",
+          # internal link background, highlighted text, highlighted lines of code, FS coldplay yellow
+          highlight: "#fcf751",
         },
         darkMode: {
-          light: "#161618",
+          light: "#25215a",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
