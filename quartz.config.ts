@@ -44,8 +44,8 @@ const config: QuartzConfig = {
         darkMode: {
           // BG, FS deeper purple 125%
           light: "#1C1943",
-          // borders, FS green 50
-          lightgray: "#aefee5",
+          // borders, FS purple rain
+          lightgray: "#4500bd",
           // heavier borders, graph links, FS lavender
           gray: "#D7BFFF",
           // body text, FS white lies
@@ -56,7 +56,7 @@ const config: QuartzConfig = {
           secondary: "#F19BD8",
           // hover states & visited graph nodes, FS Barbie
           tertiary: "#f8cdec",
-          // internal link background, highlighted text, highlighted lines of code, FS 
+          // internal link background, highlighted text, highlighted lines of code, FS purple rain
           // highlight: "rgba(143, 159, 169, 0.15)",
           highlight: "#4500bd",
         },
