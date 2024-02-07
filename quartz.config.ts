@@ -42,8 +42,8 @@ const config: QuartzConfig = {
           highlight: "#fcf751",
         },
         darkMode: {
-          // BG, FS deep purple
-          light: "#25215a",
+          // BG, FS deeper purple 125%
+          light: "#1C1943",
           // borders, FS green 50
           lightgray: "#aefee5",
           // heavier borders, graph links, FS lavender
