@@ -16,9 +16,9 @@ const config: QuartzConfig = {
     theme: {
       typography: {
         // header: "Roboto Mono",
-        header: "Roboto Mono Bold 700",
+        header: "Roboto Mono",
         // body: "Roboto Mono",
-        body: "Roboto Light 300",
+        body: "Roboto",
         code: "IBM Plex Mono",
       },
       colors: {
