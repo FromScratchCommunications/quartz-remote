@@ -15,16 +15,18 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Roboto Bold 700",
-        body: "Roboto Mono",
+        // header: "Roboto Mono",
+        header: "Roboto Mono Bold 700",
+        // body: "Roboto Mono",
+        body: "Roboto Light 300",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
           // BG, FS white
           light: "#faf8ff",
-          // borders, FS green light
-          lightgray: "#5dfdcb",
+          // borders, FS green 50
+          lightgray: "#aefee5",
           // heavier borders, graph links, FS  purple rain
           gray: "#4500bd",
           // body text, FS deep purple
