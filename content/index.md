@@ -9,3 +9,6 @@ Auch:
 
 [[Test for Quartz 1]]
 [[Another test note]]
+
+Das Leben ist ein einziges ==Highlight!==
+
