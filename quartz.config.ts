@@ -42,14 +42,23 @@ const config: QuartzConfig = {
           highlight: "#fcf751",
         },
         darkMode: {
+          // BG, FS deep purple
           light: "#25215a",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          // borders, FS green 50
+          lightgray: "#aefee5",
+          // heavier borders, graph links, FS lavender
+          gray: "#D7BFFF",
+          // body text, FS white lies
+          darkgray: "#FAF8FF",
+          // header text & icons, FS lavender
+          dark: "#D7BFFF",
+          // links, FS raspberry sorbet
+          secondary: "#F19BD8",
+          // hover states & visited graph nodes, FS Barbie
+          tertiary: "#f8cdec",
+          // internal link background, highlighted text, highlighted lines of code, FS 
+          // highlight: "rgba(143, 159, 169, 0.15)",
+          highlight: "#4500bd",
         },
       },
     },
