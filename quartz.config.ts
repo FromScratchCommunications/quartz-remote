@@ -14,6 +14,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
+      // set to false, this fetches specified fonts at build instead of downoading them from Google (CDN caching) for every user: 
       cdnCaching: false,
       typography: {
         // header: "Roboto Mono",
