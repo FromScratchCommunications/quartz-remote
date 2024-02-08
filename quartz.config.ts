@@ -29,19 +29,19 @@ const config: QuartzConfig = {
           light: "#faf8ff",
           // borders, FS deep purple
           lightgray: "#25215a",
-          // heavier borders, graph links, FS  purple rain
-          gray: "#4500bd",
+          // heavier borders, graph links, FS  purple 50%
+          gray: "#d7bfff",
           // body text, FS deep purple
           darkgray: "#25215a",
-          // header text & icons, FS purple rain
-          dark: "#4500bd",
-          // links, FS HC p!nk
-          secondary: "#B81B8B",
-          // hover states & visited graph nodes, FS p!nk
-          tertiary: "#e237b1",
+          // header text & icons, FS deep purple
+          dark: "#25215a",
+          // links, FS purple rain
+          secondary: "#4500bd",
+          // hover states & visited graph nodes, FS purple drizzle
+          tertiary: "#660eff",
           // highlight: "rgba(143, 159, 169, 0.15)",
-          // internal link background, highlighted text, highlighted lines of code, FS coldplay yellow
-          highlight: "#fcf751",
+          // internal link background, highlighted text, highlighted lines of code, FS lilac
+          highlight: "#E3D1FF",
         },
         darkMode: {
           // BG, FS deeper purple 125%
