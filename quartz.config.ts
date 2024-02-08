@@ -27,8 +27,8 @@ const config: QuartzConfig = {
         lightMode: {
           // BG, FS white
           light: "#faf8ff",
-          // borders, FS green 50
-          lightgray: "#aefee5",
+          // borders, FS deep purple
+          lightgray: "#25215a",
           // heavier borders, graph links, FS  purple rain
           gray: "#4500bd",
           // body text, FS deep purple
