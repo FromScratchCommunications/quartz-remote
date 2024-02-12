@@ -1,9 +1,10 @@
 import { QuartzConfig } from "./quartz/cfg"
+import { ImageTitle } from "./quartz/components"
 import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "💎 Unser Quartz Test",
+    pageTitle: "Title",
     enableSPA: true,
     enablePopovers: false,
     analytics: {
@@ -27,40 +28,40 @@ const config: QuartzConfig = {
         lightMode: {
           // BG, FS white
           light: "#faf8ff",
-          // borders, FS deep purple
-          lightgray: "#25215a",
-          // heavier borders, graph links, FS  purple 50%
-          gray: "#d7bfff",
+          // borders, search field: FS lilac 25%
+          lightgray: "#E3D1FF",
+          // heavier borders, graph links, FS  purple drizzle
+          gray: "#660eff",
           // body text, FS deep purple
           darkgray: "#25215a",
           // header text & icons, FS deep purple
           dark: "#25215a",
           // links, FS purple rain
           secondary: "#4500bd",
-          // hover states & visited graph nodes, FS purple drizzle
-          tertiary: "#660eff",
+          // hover states & visited graph nodes, FS hc p!nk
+          tertiary: "#B81B8B",
           // highlight: "rgba(143, 159, 169, 0.15)",
-          // internal link background, highlighted text, highlighted lines of code, FS lilac
-          highlight: "#E3D1FF",
+          // internal link background, highlighted text, highlighted lines of code, FS magnolia
+          highlight: "#faf8ff",
         },
         darkMode: {
           // BG, FS deeper purple 125%
           light: "#1C1943",
-          // borders, FS purple rain
+          // borders, search field: FS purple rain
           lightgray: "#4500bd",
-          // heavier borders, graph links, FS lavender
-          gray: "#D7BFFF",
+          // heavier borders, graph links, FS cool mint
+          gray: "#d7fff2",
           // body text, FS white lies
           darkgray: "#FAF8FF",
-          // header text & icons, FS lavender
-          dark: "#D7BFFF",
-          // links, FS raspberry sorbet
-          secondary: "#F19BD8",
-          // hover states & visited graph nodes, FS Barbie
-          tertiary: "#f8cdec",
+          // header text & icons, FS white lies
+          dark: "#FAF8FF",
+          // links, FS green light
+          secondary: "#5dfdcb",
+          // hover states & visited graph nodes, FS coldplay yellow
+          tertiary: "#fcf751",
           // internal link background, highlighted text, highlighted lines of code, FS purple rain
           // highlight: "rgba(143, 159, 169, 0.15)",
-          highlight: "#4500bd",
+          highlight: "#1C1943",
         },
       },
     },

@@ -9,6 +9,7 @@ function PageTitle({ fileData, cfg, displayClass }: QuartzComponentProps) {
   return (
     <h1 class={classNames(displayClass, "page-title")}>
       <a href={baseDir}>{title}</a>
+      <img src = "/static/EMJlogo.svg" alt="Ethisches Marketing Jetzt"/>
     </h1>
   )
 }
